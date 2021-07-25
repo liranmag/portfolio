@@ -1,0 +1,30 @@
+.carousel{
+  margin: 50px auto;
+  width: 50vw;
+}
+
+#container {
+    position: relative;    
+}
+
+#myButton{
+    width: 25px;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    position: absolute ;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    background-color: rgba(247, 243, 243, 0.911) ;
+    float:right;left:250;z-index:2 !important;
+    transition: 0.3s;
+}
+
+#myButton:hover {
+    background-color: rgba(128, 128, 128, 0.911) 
+
+
+}
+
+
